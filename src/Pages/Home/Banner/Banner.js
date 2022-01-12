@@ -35,7 +35,7 @@ const Banner = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>We Dream of Travel</h3>
+                        {/* <h3>We Dream of Travel</h3> */}
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
