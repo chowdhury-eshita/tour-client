@@ -11,7 +11,7 @@ const MyOrders = () => {
             .then(data => setOrders(data));
     }, [])
 
-    const admin = orders.filter(order => order.email === user.email);
+    // const admin = orders.filter(order => order.email === user.email);
 
     const handleDelete = id => {
         const url = `https://scary-eyeballs-96536.herokuapp.com/myOrders/${id}`;
