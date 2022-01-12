@@ -44,7 +44,7 @@ const ServiceDetails = () => {
                 <h1 className="text-success">Please Place Order</h1>
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <input {...register('place', { required: true })} value={service.name} />
-                    <input {...register('cost', { required: true })} placeholder="Cost" />
+                    <input {...register('cost', { required: true })} value={service.cost} />
                     <input {...register('name', { required: true })} value={user.displayName} />
                     <input {...register('email', { required: true })} value={user.email} />
                     <input {...register('phone', { required: true })} placeholder="Phone" />
